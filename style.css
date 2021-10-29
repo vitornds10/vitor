@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+
+* {
+    text-align: center;
+    font-family: 'Zen Kurenaido', sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: wheat;
+    padding: 20px;
+    color: whitesmoke
+}
+
+main {
+    padding: 30px;
+    color: wheat;
+    font-size: 20px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+}
+
+.fotos {
+    width: 100%;
+    padding: 20px 0px;
+}
+
+.perfil {
+    width: 300px;
+    border-radius: 50%;
+}
+
+@media (min-width: 1024px) {
+    
+    #container {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fotos {
+        width: 300px;
+        padding: 20px;
+    }
+}
